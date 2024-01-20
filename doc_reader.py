@@ -1,7 +1,6 @@
 from lang_imports import *
 import docx2txt
 import pandas as pd
-import config
 
 def load_text_from_file(file):
     
