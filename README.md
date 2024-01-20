@@ -13,13 +13,27 @@ Clone the Query-Your-Documents repository to your local machine using the follow
 
 ```bash
 git clone https://github.com/avi246/Query-Your-Documents.git
-cd Query-Your-Documents
+
+An alternative to cloning the repositroy is simply downloading the zipped Code file by clicking on the Green "Code" Option to the top right of the repository box.
+
+### 2. Installing the Required Libraries
+
+Move to the cloned folder and install all the required libraries for runningn the code using the following command in the terminal:
+
+''' bash
 pip install -r requirements.txt
-# lang_imports.py
 
-# Other imports...
+### 3. Insertion of API Key
 
-# Set your Open AI API key here
-OPENAI_API_KEY = "your-api-key-goes-here"
+Acquire the OpenAI API key from https://platform.openai.com/api-keys and paste it in the commented line in the lang_imports.py file.
+
+### 4. Run the code by using the following command in your teminal:
+
+''' bash
 streamlit run doc_reader.py
+
+### 5. Use the Software
+
+Once you are done with these steps, a locally hosted site will open up where you will upload your document in the dropbox and can proceed with querying it.
+
 
