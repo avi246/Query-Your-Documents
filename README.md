@@ -12,4 +12,14 @@ To get started with Query-Your-Documents, follow the steps below:
 Clone the Query-Your-Documents repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/Query-Your-Documents.git
+git clone https://github.com/avi246/Query-Your-Documents.git
+cd Query-Your-Documents
+pip install -r requirements.txt
+# lang_imports.py
+
+# Other imports...
+
+# Set your Open AI API key here
+OPENAI_API_KEY = "your-api-key-goes-here"
+streamlit run doc_reader.py
+
